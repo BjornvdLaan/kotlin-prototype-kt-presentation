@@ -1,2 +1,2 @@
 # kotlin-prototype-kt-presentation
-Presentation and code example where I explained the Prototype design pattern and its uses
+Presentation and code example where I explained the Prototype design pattern and its uses, including code examples.
