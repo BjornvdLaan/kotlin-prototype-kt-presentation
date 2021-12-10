@@ -1,0 +1,20 @@
+@startuml example-diagram
+
+interface Prototype
+class MultimediaCollection
+abstract class MultimediaItem
+class Video
+class Photo
+class Creator
+
+MultimediaCollection *-- MultimediaItem
+MultimediaCollection *-- Creator
+
+Prototype <|-- MultimediaItem
+MultimediaItem <|-- Video
+MultimediaItem <|-- Photo
+
+Video *-- Creator
+Photo *-- Creator
+
+@enduml
